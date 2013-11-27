@@ -27,7 +27,6 @@ Clone and initialize submodules::
 
 Build and upload::
 
-    cd src
     make upload
 
 License
