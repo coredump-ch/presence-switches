@@ -1,7 +1,7 @@
 Presence Switches
 =================
 
-These are our "presence switches" to denote how many people are in the
+These are our *presence switches* to denote how many people are in the
 hackerspace at the moment.
 
 The code is written for the Arduino Mega 2560 with the Ethernet shield.
@@ -48,7 +48,20 @@ To get the current status via network, send a HTTP request to
 
     {"open": true, "people": 3}
 
+Parts
+-----
+
+- Arduino Mega 2560
+- Arduino Ethernet Shield
+- Catalex TM1637 4-Digit Display Module
+  (http://dx.com/p/0-36-led-4-digit-display-module-for-arduino-black-blue-works-with-official-arduino-boards-254978)
+- Sparkfun PCF8575 I2C Breakout Board
+  (http://www.play-zone.ch/de/sparkfun-pcf8775c-i2c-io-expander-breakout.html)
+- Sparkfun Toggle Switch (8x)
+  (http://www.play-zone.ch/de/sparkfun-raketen-schalter.html)
+- 10kΩ Resistors (8x)
+
 License
 -------
 
-MIT license, see `LICENSE.rst`.
+MIT license, see ``LICENSE.rst``.
